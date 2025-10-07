@@ -1,0 +1,37 @@
+[
+  {
+    "id": "dialogo_sayori_1",
+    "tipo": "dialogo",
+    "bgm": "assets/sfx/doki.mpeg",
+    "imagenFondo": "assets/bg/Garden1.png",
+    "personaje": "Sayori",
+    "personajes": [
+      { "nombre": "Monika", "sprite": "assets/ch/Monika_Neutral.webp", "posicion": "izquierda" },
+      { "nombre": "Sayori", "sprite": "assets/ch/Sayori_Normal.webp", "posicion": "derecha" }
+    ],
+    "texto": "...",
+    "siguiente": "dialogo_monika_1"
+  },
+  {
+    "id": "dialogo_monika_1",
+    "tipo": "dialogo",
+    "personaje": "Monika",
+    "personajes": [
+      { "nombre": "Monika", "sprite": "assets/ch/Monika_Hablando.webp", "posicion": "izquierda" },
+      { "nombre": "Sayori", "sprite": "assets/ch/Sayori_Normal.webp", "posicion": "derecha" }
+    ],
+    "texto": "Sabía que te encontraría aquí. ¿Qué sucede?",
+    "siguiente": "dialogo_sayori_2"
+  },
+  {
+    "id": "dialogo_sayori_2",
+    "tipo": "dialogo",
+    "personaje": "Sayori",
+    "personajes": [
+      { "nombre": "Monika", "sprite": "assets/ch/Monika_Neutral.webp", "posicion": "izquierda" },
+      { "nombre": "Sayori", "sprite": "assets/ch/Sayori_Seria_Hablando.webp", "posicion": "derecha" }
+    ],
+    "texto": "Es el bosque. Ha estado demasiado silencioso últimamente.",
+    "siguiente": "fin"
+  }
+]
